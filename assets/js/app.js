@@ -32,7 +32,7 @@ function agregarTarea() {
 };
 
 // Función para eliminar una tarea
-function eliminarTarea() {
+function eliminarTarea(id) {
     tareas = tareas.filter(tarea => tarea.id !== id);
     mostrarTareas();
 };
